@@ -14,3 +14,26 @@ class loginData():
     email_invalid = 'tested@test.com'
     psw_invalid = "098765"
     msg_error_login = 'Login was unsuccessful.'
+
+
+class CheckOutPage():
+    add_cart_btn = '//input[@class="button-2 product-box-add-to-cart-button"]'
+    go_to_cart = '//span[@class="cart-label"]'
+    rec_name = 'giftcard_2_RecipientName'
+    rec_email = 'giftcard_2_RecipientEmail'
+    snd_name = 'giftcard_2_SenderName'
+    snd_email = 'giftcard_2_SenderEmail'
+    add_cart_btn2 = '//input[@class="button-1 add-to-cart-button"]'
+    tns = 'termsofservice'
+    co_guest_btn = '//input[@class="button-1 checkout-as-guest-button"]'
+    co_btn = '//button[@id="checkout"]'
+
+class CheckOutData():
+    url = 'https://demowebshop.tricentis.com/'
+    url_VGC ='https://demowebshop.tricentis.com/25-virtual-gift-card'
+    url_cart = 'https://demowebshop.tricentis.com/cart'
+    title = 'Demo Web Shop'
+    rec_name_valid = 'Nama Penerima'
+    rec_email_valid = 'penerima@email.com'
+    snd_name_valid = 'Test Selenium'
+    snd_email_valid = 'sel@test.com'
